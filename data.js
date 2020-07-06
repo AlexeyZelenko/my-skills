@@ -93,13 +93,18 @@ var data = {
                       sizePercent: '80%'
                     },
                     {
+                      name: 'Materialize',
+                      sizePercent: '40%'
+                    },
+                    {
                       name: 'Element Ui',
                       sizePercent: '5%'
                     },
                     {
                       name: 'Bootstrap Vue',
-                      sizePercent: '5%'
+                      sizePercent: '30%'
                     },
+
                     {
                       name: 'iView',
                       sizePercent: '2.5%'
@@ -539,17 +544,47 @@ var data = {
       sizePercent: '2%',
       children: [
         {
-          name: 'CI',
+          name: 'Firebase',
           children: [
             {
-              name: 'CircleCI',
+              name: 'Authentication',
               sizePercent: '60%'
             },
             {
-              name: 'Travis CI',
-              sizePercent: '40%'
-            }
+              name: 'Database',
+              children: [
+                {
+                  name: 'Cloud',
+                  sizePercent: '60%'
+                },
+                {
+                  name: 'Realtime',
+                  sizePercent: '60%'
+                },
+              ]
+            },
+            {
+              name: 'Storage',
+              sizePercent: '60%'
+            },
+            {
+              name: 'Hosting',
+              sizePercent: '60%'
+            },
+            {
+              name: 'Function',
+              sizePercent: '10%'
+            },
+            {
+              name: 'Perfomance',
+              sizePercent: '20%'
+            },
+
           ]
+        },
+        {
+          name: 'Google Cloud Platform',
+          sizePercent: '5%'
         },
         {
           name: 'IDE',
@@ -573,6 +608,10 @@ var data = {
               name: 'IntelliJ IDEA (Cordova)'
             }
           ]
+        },
+        {
+          name: 'Chrome Web Store',
+          sizePercent: '60%'
         }
       ]
     }
