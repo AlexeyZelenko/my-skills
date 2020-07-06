@@ -265,88 +265,88 @@ var data = {
     //     }
     //   ],
     // },
-    {
-      name: 'TypeScript',
-      sizePercent: '30%',
-      children: [
-        {
-          name: 'Static analyzers',
-          children: [
-            {
-              name: 'ESLint',
-              sizePercent: '50%'
-            },
-            {
-              name: 'TSLint',
-              sizePercent: '30%'
-            },
-            {
-              name: 'Prettier',
-              sizePercent: '20%'
-            }
-          ]
-        },
-        {
-          name: 'InversifyJS'
-        },
-        {
-          name: 'Basic types'
-        },
-        {
-          name: 'Type aliases'
-        },
-        {
-          name: 'Function types'
-        },
-        {
-          name: 'Enum'
-        },
-        {
-          name: 'Interfaces',
-          children: [
-            {
-              name: 'Inline'
-            },
-            {
-              name: 'Explicit'
-            },
-            {
-              name: 'Optional properties'
-            },
-            {
-              name: 'Read only'
-            },
-            {
-              name: 'Dynamic keys'
-            },
-            {
-              name: 'Extension'
-            }
-          ]
-        },
-        {
-          name: 'Classes'
-        },
-        {
-          name: 'Type extraction'
-        },
-        {
-          name: 'Modules'
-        },
-        {
-          name: 'Generics',
-        },
-        {
-          name: 'Partial and mapped types (Partial, Pick...)'
-        },
-        {
-          name: 'Расширение типов (и сторонних пакетов)'
-        },
-        {
-          name: 'Интеграция с Vue'
-        }
-      ]
-    },
+    // {
+    //   name: 'TypeScript',
+    //   sizePercent: '30%',
+    //   children: [
+    //     {
+    //       name: 'Static analyzers',
+    //       children: [
+    //         {
+    //           name: 'ESLint',
+    //           sizePercent: '50%'
+    //         },
+    //         {
+    //           name: 'TSLint',
+    //           sizePercent: '30%'
+    //         },
+    //         {
+    //           name: 'Prettier',
+    //           sizePercent: '20%'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'InversifyJS'
+    //     },
+    //     {
+    //       name: 'Basic types'
+    //     },
+    //     {
+    //       name: 'Type aliases'
+    //     },
+    //     {
+    //       name: 'Function types'
+    //     },
+    //     {
+    //       name: 'Enum'
+    //     },
+    //     {
+    //       name: 'Interfaces',
+    //       children: [
+    //         {
+    //           name: 'Inline'
+    //         },
+    //         {
+    //           name: 'Explicit'
+    //         },
+    //         {
+    //           name: 'Optional properties'
+    //         },
+    //         {
+    //           name: 'Read only'
+    //         },
+    //         {
+    //           name: 'Dynamic keys'
+    //         },
+    //         {
+    //           name: 'Extension'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'Classes'
+    //     },
+    //     {
+    //       name: 'Type extraction'
+    //     },
+    //     {
+    //       name: 'Modules'
+    //     },
+    //     {
+    //       name: 'Generics',
+    //     },
+    //     {
+    //       name: 'Partial and mapped types (Partial, Pick...)'
+    //     },
+    //     {
+    //       name: 'Расширение типов (и сторонних пакетов)'
+    //     },
+    //     {
+    //       name: 'Интеграция с Vue'
+    //     }
+    //   ]
+    // },
     {
       name: 'CSS',
       sizePercent: '10%',
@@ -416,6 +416,23 @@ var data = {
               name: 'Media queries',
               sizePercent: '20%'
             }
+          ]
+        },
+        {
+          name: 'Framework',
+          children: [
+            {
+              name: 'Bootstrap',
+              sizePercent: '50%'
+            },
+            {
+              name: 'Semantic UI',
+              sizePercent: '5%'
+            },
+            {
+              name: 'Materialize',
+              sizePercent: '25%'
+            },
           ]
         }
       ]
