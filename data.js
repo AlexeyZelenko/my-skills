@@ -656,14 +656,37 @@ var data = {
     },
     {
       name: 'Team work',
-      sizePercent: '70%'
+      children: [
+        {
+          name: 'Умение взаимодействовать',
+          sizePercent: '30%'
+        },
+        {
+          name: 'Положительный настрой',
+          sizePercent: '70%'
+        },
+        {
+          name: 'Брать ответственность на\n' +
+            'себя',
+          sizePercent: '40%'
+        },
+        {
+          name: 'Готовность изменяться',
+          sizePercent: '40%'
+        },
+        {
+          name: 'готовность\n' +
+            'обучаться',
+          sizePercent: '40%'
+        },
+      ]
     },
     {
       name: 'language',
       children: [
         {
           name: 'English',
-          sizePercent: '40%'
+          sizePercent: '30%'
         },
         {
           name: 'Polish',
@@ -671,11 +694,11 @@ var data = {
         },
         {
           name: 'Russian',
-          sizePercent: '40%'
+          sizePercent: '90%'
         },
         {
           name: 'Ukrainian',
-          sizePercent: '40%'
+          sizePercent: '80%'
         },
       ]
     }
