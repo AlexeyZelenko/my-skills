@@ -8,57 +8,23 @@ var data = {
       sizePercent: '40%',
       children: [
         {
-          name: 'JQuery',
-          sizePercent: '5%',
-        },
-        {
-          name: 'D3',
-          sizePercent: '5%',
-        },
-        {
-          name: 'GraphQL',
-          sizePercent: '5%'
-        },
-        {
-          name: 'Template engines',
-          sizePercent: '5%',
-          children: [
-            {
-              name: 'Pug'
-            },
-            {
-              name: 'Handlebars'
-            },
-            {
-              name: 'twig.js'
-            },
-          ]
-        },
-        {
-          name: 'ES6, ES7, ES8, ES9 and proposals',
-          sizePercent: '25%',
-        },
-        {
           name: 'Node.js',
           sizePercent: '25%',
           children: [
-            {
-              name: 'Express'
-            },
-            {
-              name: 'Socket.IO'
-            },
-            {
-              name: 'ES6+'
-            },
-            {
-              name: 'TypeScript'
-            },
+            // {
+            //   name: 'Express'
+            // },
+            // {
+            //   name: 'Socket.IO'
+            // },
+            // {
+            //   name: 'ES6+'
+            // },
+            // {
+            //   name: 'TypeScript'
+            // },
             {
               name: 'Debugging tools'
-            },
-            {
-              name: 'Nodemon'
             },
             {
               name: 'CLI development'
@@ -76,22 +42,22 @@ var data = {
               name: 'Electron',
               sizePercent: '30%'
             },
-            {
-              name: 'Cordova',
-              sizePercent: '30%'
-            },
-            {
-              name: 'Ionic (Angular, Vue)',
-              sizePercent: '20%'
-            },
-            {
-              name: 'Quasar (Vue)',
-              sizePercent: '5%'
-            },
-            {
-              name: 'Framework7 (Vue)',
-              sizePercent: '2%'
-            },
+            // {
+            //   name: 'Cordova',
+            //   sizePercent: '30%'
+            // },
+            // {
+            //   name: 'Ionic (Angular, Vue)',
+            //   sizePercent: '20%'
+            // },
+            // {
+            //   name: 'Quasar (Vue)',
+            //   sizePercent: '5%'
+            // },
+            // {
+            //   name: 'Framework7 (Vue)',
+            //   sizePercent: '2%'
+            // },
             {
               name: 'PWA',
               sizePercent: '13%'
@@ -106,19 +72,19 @@ var data = {
               name: 'Vue (experienced)',
               sizePercent: '80%',
               children: [
-                {
-                  name: 'Nuxt.js (experienced)',
-                  sizePercent: '80%'
-                },
-                {
-                  name: 'Full TypeScript integration'
-                },
-                {
-                  name: 'Apollo (GraphQL)'
-                },
-                {
-                  name: 'Style guide (best practices)'
-                },
+                // {
+                //   name: 'Nuxt.js (experienced)',
+                //   sizePercent: '80%'
+                // },
+                // {
+                //   name: 'Full TypeScript integration'
+                // },
+                // {
+                //   name: 'Apollo (GraphQL)'
+                // },
+                // {
+                //   name: 'Style guide (best practices)'
+                // },
                 {
                   name: 'UI',
                   children: [
@@ -150,33 +116,30 @@ var data = {
                 {
                   name: 'Vuex'
                 },
-                {
-                  name: 'JSX'
-                }
               ]
             },
-            {
-              name: 'React',
-              sizePercent: '20%',
-              children: [
-                {
-                  name: 'Router'
-                },
-                {
-                  name: 'Redux'
-                },
-                {
-                  name: 'JSX'
-                },
-                {
-                  name: 'Material-UI'
-                }
-              ]
-            },
-            {
-              name: 'Angular',
-              sizePercent: '5%'
-            }
+            // {
+            //   name: 'React',
+            //   sizePercent: '20%',
+            //   children: [
+            //     {
+            //       name: 'Router'
+            //     },
+            //     {
+            //       name: 'Redux'
+            //     },
+            //     {
+            //       name: 'JSX'
+            //     },
+            //     {
+            //       name: 'Material-UI'
+            //     }
+            //   ]
+            // },
+            // {
+            //   name: 'Angular',
+            //   sizePercent: '5%'
+            // }
           ]
         },
         {
@@ -235,68 +198,68 @@ var data = {
         }
       ]
     },
-    {
-      name: 'PHP',
-      sizePercent: '20%',
-      children: [
-        {
-          name: 'Frameworks',
-          sizePercent: '90%',
-          children: [
-            {
-              name: 'Laravel',
-              sizePercent: '63%'
-            },
-            {
-              name: 'Symfony (Geekhub)',
-              sizePercent: '40%'
-            },
-            {
-              name: 'Kohana',
-              sizePercent: '2%'
-            }
-          ]
-        },
-        {
-          name: 'Static analyzers',
-          sizePercent: '5%',
-          children: [
-            {
-              name: 'CS-Fixer'
-            },
-            {
-              name: 'PhpDependencyAnalysis'
-            },
-            {
-              name: 'PHPStan'
-            },
-            {
-              name: 'PHPLOC'
-            },
-            {
-              name: 'PHPCPD'
-            }
-          ]
-        },
-        {
-          name: 'Tests',
-          sizePercent: '5%',
-          children: [
-            {
-              name: 'PHPUnit',
-              sizePercent: '70%'
-            },
-            {
-              name: 'Behat',
-              sizePercent: '30%'
-            }
-          ]
-        },
-        {
-          name: 'GraphQL'
-        }
-      ],
-    },
+    // {
+    //   name: 'PHP',
+    //   sizePercent: '20%',
+    //   children: [
+    //     {
+    //       name: 'Frameworks',
+    //       sizePercent: '90%',
+    //       children: [
+    //         {
+    //           name: 'Laravel',
+    //           sizePercent: '63%'
+    //         },
+    //         {
+    //           name: 'Symfony (Geekhub)',
+    //           sizePercent: '40%'
+    //         },
+    //         {
+    //           name: 'Kohana',
+    //           sizePercent: '2%'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'Static analyzers',
+    //       sizePercent: '5%',
+    //       children: [
+    //         {
+    //           name: 'CS-Fixer'
+    //         },
+    //         {
+    //           name: 'PhpDependencyAnalysis'
+    //         },
+    //         {
+    //           name: 'PHPStan'
+    //         },
+    //         {
+    //           name: 'PHPLOC'
+    //         },
+    //         {
+    //           name: 'PHPCPD'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'Tests',
+    //       sizePercent: '5%',
+    //       children: [
+    //         {
+    //           name: 'PHPUnit',
+    //           sizePercent: '70%'
+    //         },
+    //         {
+    //           name: 'Behat',
+    //           sizePercent: '30%'
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'GraphQL'
+    //     }
+    //   ],
+    // },
     {
       name: 'TypeScript',
       sizePercent: '30%',
@@ -463,18 +426,14 @@ var data = {
           name: 'PostgreSQL',
           sizePercent: '20%'
         },
-        {
-          name: 'MongoDB',
-          sizePercent: '10%'
-        }
       ]
     },
-    // {
-    //   name: 'OOP',
-    //   children: [
-    //
-    //   ]
-    // },
+    {
+      name: 'OOP',
+      children: [
+
+      ]
+    },
     {
       name: 'Patterns',
       children: [
@@ -554,10 +513,6 @@ var data = {
       sizePercent: '10%',
       children: [
         {
-          name: 'Bitbucket',
-          sizePercent: '20%'
-        },
-        {
           name: 'Gitlab',
           sizePercent: '10%'
         },
@@ -593,29 +548,6 @@ var data = {
             {
               name: 'Travis CI',
               sizePercent: '40%'
-            }
-          ]
-        },
-        {
-          name: 'Principles / concepts',
-          children: [
-            {
-              name: 'SOLID'
-            },
-            {
-              name: 'CQRS'
-            },
-            {
-              name: 'Value Object, Entity, DTO'
-            },
-            {
-              name: 'Cohesion'
-            },
-            {
-              name: 'Coupling'
-            },
-            {
-              name: 'Dependency Injection + IOC'
             }
           ]
         },
