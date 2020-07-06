@@ -675,8 +675,12 @@ var data = {
           sizePercent: '40%'
         },
         {
-          name: 'готовность\n' +
+          name: 'Готовность\n' +
             'обучаться',
+          sizePercent: '40%'
+        },
+        {
+          name: 'Признавать свои ошибки',
           sizePercent: '40%'
         },
       ]
