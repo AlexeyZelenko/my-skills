@@ -663,25 +663,25 @@ var data = {
         },
         {
           name: 'Положительный настрой',
-          sizePercent: '70%'
+          sizePercent: '100%'
         },
         {
           name: 'Брать ответственность на\n' +
             'себя',
-          sizePercent: '40%'
+          sizePercent: '100%'
         },
         {
           name: 'Готовность изменяться',
-          sizePercent: '40%'
+          sizePercent: '100%'
         },
         {
           name: 'Готовность\n' +
             'обучаться',
-          sizePercent: '40%'
+          sizePercent: '100%'
         },
         {
           name: 'Признавать свои ошибки',
-          sizePercent: '40%'
+          sizePercent: '100%'
         },
       ]
     },
