@@ -614,6 +614,36 @@ var data = {
           sizePercent: '60%'
         }
       ]
+    },
+    {
+      name: 'SoftSkills',
+      children: [
+        {
+          name: 'Selfmanagment',
+          children: [
+            {
+              name: 'toggl.com',
+              sizePercent: '20%'
+            },
+            {
+              name: 'googleKeep',
+              sizePercent: '20%'
+            },
+            {
+              name: 'google Календарь',
+              sizePercent: '20%'
+            },
+          ]
+        },
+      ]
+    },
+    {
+      name: 'Team work',
+      sizePercent: '70%'
+    },
+    {
+      name: 'English language',
+      sizePercent: '30%'
     }
   ], true)
 }
