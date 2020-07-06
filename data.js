@@ -623,15 +623,15 @@ var data = {
           children: [
             {
               name: 'toggl.com',
-              sizePercent: '20%'
+              sizePercent: '40%'
             },
             {
               name: 'googleKeep',
-              sizePercent: '20%'
+              sizePercent: '40%'
             },
             {
               name: 'google Календарь',
-              sizePercent: '20%'
+              sizePercent: '40%'
             },
           ]
         },
@@ -642,8 +642,25 @@ var data = {
       sizePercent: '70%'
     },
     {
-      name: 'English language',
-      sizePercent: '30%'
+      name: 'language',
+      children: [
+        {
+          name: 'English',
+          sizePercent: '40%'
+        },
+        {
+          name: 'Polish',
+          sizePercent: '20%'
+        },
+        {
+          name: 'Russian',
+          sizePercent: '40%'
+        },
+        {
+          name: 'Ukrainian',
+          sizePercent: '40%'
+        },
+      ]
     }
   ], true)
 }
