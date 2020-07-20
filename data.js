@@ -2,8 +2,7 @@ const initialSize = 1000
 
 var data = {
   name: "Languages",
-  children: getChildren([
-    {
+  children: getChildren([    {
       name: 'JavaScript',
       sizePercent: '40%',
       children: [
@@ -203,150 +202,6 @@ var data = {
         }
       ]
     },
-    // {
-    //   name: 'PHP',
-    //   sizePercent: '20%',
-    //   children: [
-    //     {
-    //       name: 'Frameworks',
-    //       sizePercent: '90%',
-    //       children: [
-    //         {
-    //           name: 'Laravel',
-    //           sizePercent: '63%'
-    //         },
-    //         {
-    //           name: 'Symfony (Geekhub)',
-    //           sizePercent: '40%'
-    //         },
-    //         {
-    //           name: 'Kohana',
-    //           sizePercent: '2%'
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'Static analyzers',
-    //       sizePercent: '5%',
-    //       children: [
-    //         {
-    //           name: 'CS-Fixer'
-    //         },
-    //         {
-    //           name: 'PhpDependencyAnalysis'
-    //         },
-    //         {
-    //           name: 'PHPStan'
-    //         },
-    //         {
-    //           name: 'PHPLOC'
-    //         },
-    //         {
-    //           name: 'PHPCPD'
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'Tests',
-    //       sizePercent: '5%',
-    //       children: [
-    //         {
-    //           name: 'PHPUnit',
-    //           sizePercent: '70%'
-    //         },
-    //         {
-    //           name: 'Behat',
-    //           sizePercent: '30%'
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'GraphQL'
-    //     }
-    //   ],
-    // },
-    // {
-    //   name: 'TypeScript',
-    //   sizePercent: '30%',
-    //   children: [
-    //     {
-    //       name: 'Static analyzers',
-    //       children: [
-    //         {
-    //           name: 'ESLint',
-    //           sizePercent: '50%'
-    //         },
-    //         {
-    //           name: 'TSLint',
-    //           sizePercent: '30%'
-    //         },
-    //         {
-    //           name: 'Prettier',
-    //           sizePercent: '20%'
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'InversifyJS'
-    //     },
-    //     {
-    //       name: 'Basic types'
-    //     },
-    //     {
-    //       name: 'Type aliases'
-    //     },
-    //     {
-    //       name: 'Function types'
-    //     },
-    //     {
-    //       name: 'Enum'
-    //     },
-    //     {
-    //       name: 'Interfaces',
-    //       children: [
-    //         {
-    //           name: 'Inline'
-    //         },
-    //         {
-    //           name: 'Explicit'
-    //         },
-    //         {
-    //           name: 'Optional properties'
-    //         },
-    //         {
-    //           name: 'Read only'
-    //         },
-    //         {
-    //           name: 'Dynamic keys'
-    //         },
-    //         {
-    //           name: 'Extension'
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'Classes'
-    //     },
-    //     {
-    //       name: 'Type extraction'
-    //     },
-    //     {
-    //       name: 'Modules'
-    //     },
-    //     {
-    //       name: 'Generics',
-    //     },
-    //     {
-    //       name: 'Partial and mapped types (Partial, Pick...)'
-    //     },
-    //     {
-    //       name: 'Расширение типов (и сторонних пакетов)'
-    //     },
-    //     {
-    //       name: 'Интеграция с Vue'
-    //     }
-    //   ]
-    // },
     {
       name: 'CSS',
       sizePercent: '10%',
@@ -527,6 +382,16 @@ var data = {
               name: 'Strategy'
             }
           ]
+        }
+      ]
+    },
+    {
+      name: 'Ajax',
+      sizePercent: '10%',
+      children: [
+        {
+          name: 'fetch',
+          sizePercent: '10%'
         }
       ]
     },
