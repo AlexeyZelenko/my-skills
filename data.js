@@ -10,18 +10,18 @@ var data = {
           name: 'Node.js',
           sizePercent: '25%',
           children: [
-            // {
-            //   name: 'Express'
-            // },
+            {
+              name: 'Express'
+            },
             // {
             //   name: 'Socket.IO'
             // },
             // {
             //   name: 'ES6+'
             // },
-            // {
-            //   name: 'TypeScript'
-            // },
+            {
+              name: 'NodeJS'
+            },
             {
               name: 'Debugging tools'
             },
@@ -494,7 +494,12 @@ var data = {
         {
           name: 'Chrome Web Store',
           sizePercent: '60%'
-        }
+        },
+        {
+          name: 'MongoDB',
+          sizePercent: '10%'
+        },
+
       ]
     },
     {
