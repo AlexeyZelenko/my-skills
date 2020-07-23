@@ -391,7 +391,11 @@ var data = {
       children: [
         {
           name: 'fetch',
-          sizePercent: '10%'
+          sizePercent: '40%'
+        },
+        {
+          name: 'axios',
+          sizePercent: '40%'
         }
       ]
     },
@@ -423,7 +427,7 @@ var data = {
     },
     {
       name: 'Other',
-      sizePercent: '2%',
+      sizePercent: '10%',
       children: [
         {
           name: 'Firebase',
@@ -497,6 +501,10 @@ var data = {
         },
         {
           name: 'MongoDB',
+          sizePercent: '10%'
+        },
+        {
+          name: 'db.json',
           sizePercent: '10%'
         },
 
