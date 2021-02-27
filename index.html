@@ -8,7 +8,11 @@
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: center;      
+      justify-content: center;
+      background-image: url('https://hightech.fm/wp-content/uploads/2019/06/2015_vselennaya.jpg');
+      background-size: cover;
+      background-position: 0 0;
+      background-repeat: no-repeat;
     }
     .parent {
       width: 100vw;
@@ -99,7 +103,7 @@
     .style("margin", "0 -14px")
     .style("width", width) // "calc(100% + 28px)"
     .style("height", height) // "auto"
-    .style("background", "lightgrey")
+//     .style("background", "lightgrey")
     .style("cursor", "pointer")
     .on("click", () => zoom(root))
 
