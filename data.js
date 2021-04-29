@@ -69,7 +69,7 @@ var data = {
           sizePercent: '40%',
           children: [
             {
-              name: 'Vue (experienced)',
+              name: 'Vue2 (experienced)',
               sizePercent: '80%',
               children: [
                 {
@@ -84,6 +84,53 @@ var data = {
                 // },
                 {
                   name: 'Style guide (best practices)'
+                },
+                {
+                  name: 'UI',
+                  children: [
+                    {
+                      name: 'Vuetify (experienced)',
+                      sizePercent: '80%'
+                    },
+                    {
+                      name: 'Element Ui',
+                      sizePercent: '5%'
+                    },
+                    {
+                      name: 'Bootstrap Vue',
+                      sizePercent: '5%'
+                    },
+                    {
+                      name: 'iView',
+                      sizePercent: '2.5%'
+                    },
+                    {
+                      name: 'Buefy',
+                      sizePercent: '2.5%'
+                    }
+                  ]
+                },
+                {
+                  name: 'Router'
+                },
+                {
+                  name: 'Vuex'
+                },
+              ]
+            },
+            {
+              name: 'Vue3 (experienced)',
+              sizePercent: '80%',
+              children: [
+                {
+                  name: 'Composition API (experienced)',
+                  sizePercent: '80%'
+                },
+                {
+                  name: 'Lifecycle hooks'
+                },
+                {
+                  name: 'Style guide'
                 },
                 {
                   name: 'UI',
@@ -190,14 +237,6 @@ var data = {
               name: 'Vue utils',
               sizePercent: '10%'
             },
-            {
-              name: 'Cypress',
-              sizePercent: '10%'
-            },
-            {
-              name: 'Selenium',
-              sizePercent: '30%'
-            }
           ]
         }
       ]
@@ -355,7 +394,7 @@ var data = {
           children: [
             {
               name: 'Stylus',
-              sizePercent: '40%'
+              sizePercent: '10%'
             },
             {
               name: 'Sass / SCSS',
