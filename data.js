@@ -72,13 +72,13 @@ var data = {
               name: 'Vue (experienced)',
               sizePercent: '80%',
               children: [
-                // {
-                //   name: 'Nuxt.js (experienced)',
-                //   sizePercent: '80%'
-                // },
-                // {
-                //   name: 'Full TypeScript integration'
-                // },
+                {
+                  name: 'Nuxt.js (experienced)',
+                  sizePercent: '80%'
+                },
+                {
+                  name: 'Full TypeScript integration'
+                },
                 // {
                 //   name: 'Apollo (GraphQL)'
                 // },
