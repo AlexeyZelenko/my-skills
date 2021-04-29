@@ -122,24 +122,24 @@ var data = {
       },
     ]
   },
-  {
-    name: 'React',
-    sizePercent: '20%',
-    children: [
-      {
-        name: 'Router'
-      },
-      {
-        name: 'Redux'
-      },
-      {
-        name: 'JSX'
-      },
+  // {
+  //   name: 'React',
+  //   sizePercent: '20%',
+    // children: [
+    //   {
+    //     name: 'Router'
+    //   },
+    //   {
+    //     name: 'Redux'
+    //   },
+    //   {
+    //     name: 'JSX'
+    //   },
       // {
       //   name: 'Material-UI'
       // }
-    ]
-  },
+  //   ]
+  // },
   // {
   //   name: 'Angular',
   //   sizePercent: '5%'
