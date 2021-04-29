@@ -90,24 +90,20 @@ var data = {
                   children: [
                     {
                       name: 'Vuetify (experienced)',
-                      sizePercent: '80%'
+                      sizePercent: '40%'
                     },
                     {
                       name: 'Element Ui',
                       sizePercent: '5%'
                     },
                     {
-                      name: 'Bootstrap Vue',
-                      sizePercent: '5%'
+                      name: 'Bootstrap (experienced)',
+                      sizePercent: '40%'
                     },
                     {
-                      name: 'iView',
-                      sizePercent: '2.5%'
+                      name: 'Tailwind',
+                      sizePercent: '20%'
                     },
-                    {
-                      name: 'Buefy',
-                      sizePercent: '2.5%'
-                    }
                   ]
                 },
                 {
@@ -136,25 +132,13 @@ var data = {
                   name: 'UI',
                   children: [
                     {
-                      name: 'Vuetify (experienced)',
-                      sizePercent: '80%'
+                      name: 'Tailwind',
+                      sizePercent: '10%'
                     },
                     {
-                      name: 'Element Ui',
-                      sizePercent: '5%'
+                      name: 'Bootstrap',
+                      sizePercent: '90%'
                     },
-                    {
-                      name: 'Bootstrap Vue',
-                      sizePercent: '5%'
-                    },
-                    {
-                      name: 'iView',
-                      sizePercent: '2.5%'
-                    },
-                    {
-                      name: 'Buefy',
-                      sizePercent: '2.5%'
-                    }
                   ]
                 },
                 {
