@@ -66,7 +66,7 @@ var data = {
         },
         {
           name: 'Frameworks',
-          sizePercent: '35%',
+          sizePercent: '40%',
           children: [
             {
               name: 'Vue (experienced)',
@@ -118,24 +118,24 @@ var data = {
                 },
               ]
             },
-            // {
-            //   name: 'React',
-            //   sizePercent: '20%',
-            //   children: [
-            //     {
-            //       name: 'Router'
-            //     },
-            //     {
-            //       name: 'Redux'
-            //     },
-            //     {
-            //       name: 'JSX'
-            //     },
-            //     {
-            //       name: 'Material-UI'
-            //     }
-            //   ]
-            // },
+            {
+              name: 'React',
+              sizePercent: '20%',
+              children: [
+                {
+                  name: 'Router'
+                },
+                {
+                  name: 'Redux'
+                },
+                {
+                  name: 'JSX'
+                },
+                {
+                  name: 'Material-UI'
+                }
+              ]
+            },
             // {
             //   name: 'Angular',
             //   sizePercent: '5%'
@@ -144,7 +144,7 @@ var data = {
         },
         {
           name: 'Static analyzers',
-          sizePercent: '10%',
+          sizePercent: '5%',
           children: [
             {
               name: 'ESLint',
