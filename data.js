@@ -17,7 +17,7 @@ var data = {
           //   name: 'Socket.IO'
           // },
           // {
-          name: 'ES6+'
+          // name: 'ES6+'
 },
 {
   name: 'NodeJS'
