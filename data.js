@@ -82,9 +82,9 @@ var data = {
                 // {
                 //   name: 'Apollo (GraphQL)'
                 // },
-                // {
-                //   name: 'Style guide (best practices)'
-                // },
+                {
+                  name: 'Style guide (best practices)'
+                },
                 {
                   name: 'UI',
                   children: [
@@ -123,16 +123,20 @@ var data = {
               sizePercent: '20%',
               children: [
                 {
-                  name: 'Router'
+                  name: 'Router',
+                  sizePercent: '25%'
                 },
                 {
-                  name: 'Redux'
+                  name: 'Redux',
+                  sizePercent: '25%'
                 },
                 {
-                  name: 'JSX'
+                  name: 'JSX',
+                  sizePercent: '25%'
                 },
                 {
-                  name: 'Material-UI'
+                  name: 'Material-UI',
+                  sizePercent: '25%'
                 }
               ]
             },
